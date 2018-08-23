@@ -1,0 +1,16 @@
+PODS:
+  - YLGIFImage (0.11)
+
+DEPENDENCIES:
+  - YLGIFImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - YLGIFImage
+
+SPEC CHECKSUMS:
+  YLGIFImage: c0ae132fe80e5282b2762a97d14e23ba71a748ae
+
+PODFILE CHECKSUM: 2f4b8ab071452b488f05771d167de1a96468e1a9
+
+COCOAPODS: 1.5.2
