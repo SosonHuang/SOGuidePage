@@ -8,7 +8,7 @@ pod 'SOGuidePage'
 
 新建一个引导ViewController，把代码加入即可
 
-   /**  支持Gif和普通图片混合 **/
+     /**  支持Gif和普通图片混合 **/
     SOGuidePageView *guidePage = [[SOGuidePageView alloc] initWithImgsArray:@[@"1.gif", [UIImage imageNamed:@"img2"], @"img3", [UIImage imageNamed:@"img4"]] guidePageCurrentIdx:nil];
     //设置滚动到最后一张图片，继续滚动可以跳转到主页，实现代理方法lastImageGoToMainVC
     guidePage.isScrollLastImageToMainVC = YES;
@@ -21,6 +21,7 @@ pod 'SOGuidePage'
     //设置page选中时的图片
     guidePage.pageCurrentImage = [UIImage imageNamed:@"dot_select"];
     guidePage.delegate = self;
+    
 
     //加入开启按钮
     UIButton *test = [[UIButton alloc] initWithFrame:CGRectMake(100, 500, 150, 50)];
